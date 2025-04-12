@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy White Day!</title>
+  <!-- Font Awesome 6 (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  
+  <!-- Title Box at the Top -->
+  <div class="title-box">
+    <h1>Hi, Briii!</h1>
+  </div>
+
+  <!-- Main Container (Valentine Envelope) -->
+  <div class="container">
+    <div class="valentines">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+        <div class="text">Happy <br> White Day!</div>
+        <div class="text1">From Vincent </div>
+        <div class="heart"></div>
+      </div>
+      <div class="hearts">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+      </div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+
+  <!-- Music Player -->
+  <div class="music-container">
+    <img src="/tulips.jpg" alt="Album Cover" class="album-cover" />
+    <div class="track-info">
+      <div class="song-title">Nilalang</div>
+      <div class="artist-name">By Dilaw</div>
+    </div>
+    <input type="range" id="progress-bar" value="0" min="0" max="100" />
+    <div class="controls">
+      <button id="prev" class="control-button"><i class="fa-solid fa-step-backward"></i></button>
+      <button id="play-pause" class="control-button"><i class="fa-solid fa-play"></i></button>
+      <button id="next" class="control-button"><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+    <audio id="audio-player">
+      <source src="/Dilaw.mp3" type="audio/mpeg" />
+    </audio>
+  </div>
+
+  <!-- jQuery & Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/myscript.js"></script>
+  <script src="/myscript1.js"></script>
+</body>
+</html>
